@@ -1,0 +1,56 @@
+.recipe-container{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.591);
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+.recipe-container h2{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+}
+
+.content-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12vw;
+}
+
+.content-container img{
+    width: 400px;
+    height: auto;
+}
+
+.howto{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.howto h3{
+    padding: 0 0 20px;
+    font-size: 2rem;
+}
+
+.howto p{
+    padding-left: 3vw;
+    line-height: 1.5;
+}
+
+.home-btn{
+    position: fixed;
+    top: 60px;
+    left: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+}
